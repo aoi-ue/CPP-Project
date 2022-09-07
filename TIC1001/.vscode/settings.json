@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "__split_buffer": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "algorithm": "cpp"
+    }
+}

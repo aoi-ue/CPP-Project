@@ -1,0 +1,74 @@
+You are given a binary search tree. Goal is to find sum of all elements in the tree which are in range [a, b].
+Input: binary search tree, and range [low, high]
+
+// Get sum of all elements in binary search tree which are in range [low, high] inclusive.
+//              6
+//            /   \
+//           4     8
+//          / \   / \
+//         3   5 7   9
+//        /
+//       2
+
+// Input: [3, 10] => 42
+// Input: [2, 5] => 14
+// Input: [8, 9] => 17
+// Input: [4, 6] => 15
+
+
+class Node {
+  int value;
+  Node left;
+  Node right;
+}
+
+
+function transverse(low, high, root) {
+  
+  if (low < root) {
+    root.left;  
+  } else if (low > root) {
+    root.right 
+  } else {
+    
+  }
+  
+}
+
+
+
+
+
+
+
+Write a function that returns whether a list of strings is sorted given a specific alphabet. A list of N words and the K-sized alphabet are given.
+
+input:  words =    ["alice", "eve", "bob"] ---> ["alice", "bob", "eve"] --> True
+["alice", "eve"]
+alphabet = ['a', 'b', 'c', ..., 'z']  # normal (Latin) alphabet
+output: False
+
+["apple", "boy", "car"]
+alphabet = ['a', 'b', 'c', ..., 'z']
+True
+["boy", "apple",  "car"]
+False
+
+input:  words =    ["cat", "bad", "bat"]
+alphabet = ['c', 'b', 'a', 'd', 't']
+output: True
+
+["ab", "aa"] --> false
+["ac", "abbbb"] --> false
+['a', 'b', 'c', ..., 'z'] 
+
+for (let i = 0; i < words.length; i++) {
+  for (let j = i; j < alphabet.length; j++) {
+   if (words[i][i] == alphabet[i] {
+    continue; 
+  } else {
+    return false; 
+  }
+  
+  return true; 
+}
